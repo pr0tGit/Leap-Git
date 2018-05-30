@@ -10,6 +10,12 @@ namespace Leap_Git
     {
         static void Main(string[] args)
         {
+            Program.IsLeapYear(2000);
         }
+
+        public static bool IsLeapYear(int year)
+        {
+            return false;
+        } // end of IsLeapYear method
     }
 }
